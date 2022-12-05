@@ -1,10 +1,24 @@
-import React from 'react'
-import personalLogo from '../images/parkers_logo.png'
+import React from 'react';
+import personalLogo from '../images/parkers_logo.png';
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <div className="navbar">
-        <img className="navbar-logo" src={personalLogo} alt="Parker Parham logo"/>
+        <NavLink to="/">
+            <img className="navbar-logo" src={personalLogo} alt="Parker Parham logo"/>
+        </NavLink>
+        <div className="navbar-menu">
+            <NavLink className="navbar-link" to="/about">
+                About
+            </NavLink>
+            <NavLink className="navbar-link"  to="/projects">
+                Projects
+            </NavLink>
+            <NavLink className="navbar-link"  to="/contact">
+                Contact Me
+            </NavLink>
+        </div>
     </div>
   )
 }
