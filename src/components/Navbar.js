@@ -10,13 +10,13 @@ export default function Navbar() {
         </NavLink>
         <div className="navbar-menu">
             <NavLink className="navbar-link" to="/about">
-                About
+                <b>About</b>
             </NavLink>
             <NavLink className="navbar-link"  to="/projects">
-                Projects
+                <b>Projects</b>
             </NavLink>
             <NavLink className="navbar-link"  to="/contact">
-                Contact Me
+                <b>Contact Me</b>
             </NavLink>
         </div>
     </div>

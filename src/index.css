@@ -28,7 +28,13 @@ code {
 .navbar-link {
   color: black;
   text-decoration: none;
-  margin: 10px;
+  margin: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-link:hover {
+  transition: all 0.2s ease-in-out;
+  color: #000ec5;
 }
 
 /* 000ec5 - logo color  */
