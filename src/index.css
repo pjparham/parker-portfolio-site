@@ -1,3 +1,9 @@
+* {
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -13,7 +19,7 @@ code {
 .navbar {
   justify-content: space-between;
   display: flex;
-  background-color: lightgrey;
+  background-color: black;
 }
 .navbar-logo {
   width: 70px;
@@ -26,7 +32,7 @@ code {
 }
 
 .navbar-link {
-  color: black;
+  color: white;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   font-size: 20px;
@@ -35,15 +41,47 @@ code {
 
 .navbar-link:hover {
   transition: all 0.2s ease-in-out;
-  color: #000ec5;
+  color: #3909f2;
 }
 
 .hero {
-  background-color: lightgrey;
+ color: white;
+ text-align: left;
+ margin-left: 10px;
+ font-size: 24px;
 }
 
 .hero-name {
-  color: #000ec5;
+  color: #3909f2;
+}
+
+.hero-name:hover {
+  color: white;
+}
+
+.hero-button {
+  text-decoration: none;
+  text-align: center;
+  background: #3909f2;
+  width: 195px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 33px;
+  color: white;
+  font-weight: 400;
+  padding-top: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-button:hover {
+  transition: all 0.2s ease-in-out;
+  color: black;
+  background: white;
+  font-weight: 600;
+}
+
+.hero-link {
+  text-decoration: none;
 }
 
 /* 000ec5 - logo color  */

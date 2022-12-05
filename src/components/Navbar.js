@@ -1,5 +1,5 @@
 import React from 'react';
-import personalLogo from '../images/parkers_logo.png';
+import personalLogo from '../images/parkers_white_logo.png';
 import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
