@@ -1,6 +1,6 @@
 import './App.css';
 import Hero from './components/Hero' 
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Hero/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
