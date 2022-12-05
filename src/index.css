@@ -16,6 +16,24 @@ code {
     monospace;
 }
 
+.about {
+  color: white;
+  text-align: left;
+  padding-left: 160px;
+  margin-top: 40px;
+}
+
+.about, h1 {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+}
+
 .navbar {
   justify-content: space-between;
   display: flex;
@@ -83,5 +101,6 @@ code {
 .hero-link {
   text-decoration: none;
 }
+
 
 /* 000ec5 - logo color  */
