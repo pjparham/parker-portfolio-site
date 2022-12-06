@@ -21,7 +21,7 @@ code {
   width: 35px;
 }
 
-.about {
+.pages {
   color: white;
   text-align: left;
   padding-left: 160px;
@@ -29,15 +29,15 @@ code {
   margin-top: 40px;
 }
 
-.about, h1 {
+.pages, h1 {
   font-size: 60px;
 }
 
-.about, h2 {
+.pages, h2 {
   font-size: 38px;
 }
 
-.about, p {
+.pages, p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -50,22 +50,7 @@ code {
 
 
 
-@media screen and (max-width: 735px) {
-  .about {
-    padding-left: 10px;
-    margin-top: 20px;
-  }
-  .about, p {
-    padding: 5px;
-    font-size: 14px;
-  }
-  .about-ul {
-    columns: 1;
-  }
-  .navbar-menu {
-    padding-right: 5px;
-  }
-}
+
 
 
 
@@ -135,6 +120,46 @@ code {
 
 .hero-link {
   text-decoration: none;
+}
+
+
+
+.project-desktop-image{
+  width: 50%;
+  /* padding: 0px 0px 0px 0px; */
+}
+
+.project-mobile-image {
+  width: 14.7%;
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 735px) {
+  .pages {
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-top: 20px;
+  }
+  .about, p {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .about-ul {
+    columns: 1;
+  }
+  .navbar-menu {
+    padding-right: 5px;
+  }
+  .project-image-container{
+    display: flex;
+    justify-content: space-between
+  }
+  .project-desktop-image{
+    width: 73.415%;
+  }
+  .project-mobile-image {
+    width: 21.585%;
+  }
 }
 
 

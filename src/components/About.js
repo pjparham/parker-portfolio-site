@@ -9,7 +9,7 @@ import HTMLLogo from '../images/Icons/html-icon.png'
 
 export default function About() {
   return (
-    <div className='about'>
+    <div className='pages'>
         <h1>About Me:</h1>
         <h2>Skills</h2>
         <ul className="about-ul">
