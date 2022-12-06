@@ -16,10 +16,16 @@ code {
     monospace;
 }
 
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
 .about {
   color: white;
   text-align: left;
   padding-left: 160px;
+  padding-right: 210px;
   margin-top: 40px;
 }
 
@@ -27,12 +33,40 @@ code {
   font-size: 60px;
 }
 
-@media screen and (max-width: 500px) {
+.about, h2 {
+  font-size: 38px;
+}
+
+.about, p {
+  font-size: 18px;
+}
+
+.about-ul {
+  columns: 2;
+  font-size: 28px;
+}
+
+
+
+
+@media screen and (max-width: 735px) {
   .about {
     padding-left: 10px;
     margin-top: 20px;
   }
+  .about, p {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .about-ul {
+    columns: 1;
+  }
+  .navbar-menu {
+    padding-right: 5px;
+  }
 }
+
+
 
 .navbar {
   justify-content: space-between;
