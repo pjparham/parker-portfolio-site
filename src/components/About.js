@@ -23,6 +23,8 @@ export default function About() {
         </ul>
         <h2>Bio</h2>
         <p>I am a full-stack web developer with experience designing websites and building APIs. I specialize in React, and I have also worked with vanilla JS, Ruby, and Ruby on Rails. I am currently learning Python. My previous experience includes consulting with companies on their brand identity and using persuasive writing to increase conversions. I hope to use my experience in web development and branding to better connect companies and their clients. I am currently searching for a role in web development, so reach out and let's connect!</p>
+        <h2>Location</h2>
+        <p>I am located in Greenville, South Carolina. I am open to roles in my area and remote roles anywhere in the United States.</p>
     </div>
   )
 }
