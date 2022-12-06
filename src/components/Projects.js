@@ -1,7 +1,6 @@
 import React from 'react'
 import Project from './Project'
-import blogFaceMobile from '../images/blogface_mobile.png'
-import blogFaceDesktop from '../images/blogface_desktop.png'
+
 
 let allProjects = [
     {title: "BlogFace",
