@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parker-portfolio-site/static/css/main.10e79ee0.css",
-    "main.js": "/parker-portfolio-site/static/js/main.f626620a.js",
+    "main.js": "/parker-portfolio-site/static/js/main.f8bbedaf.js",
     "static/media/blogface_desktop.png": "/parker-portfolio-site/static/media/blogface_desktop.3967f790463f61ebd2b7.png",
     "static/media/blogface_mobile.png": "/parker-portfolio-site/static/media/blogface_mobile.11346cc2525dca331989.png",
     "static/media/ruby_logo.png": "/parker-portfolio-site/static/media/ruby_logo.76df93cf57df266746e9.png",
@@ -13,10 +13,10 @@
     "static/media/javascript-icon.svg": "/parker-portfolio-site/static/media/javascript-icon.5f1e7a5042630c543ca6bad12aa56c91.svg",
     "index.html": "/parker-portfolio-site/index.html",
     "main.10e79ee0.css.map": "/parker-portfolio-site/static/css/main.10e79ee0.css.map",
-    "main.f626620a.js.map": "/parker-portfolio-site/static/js/main.f626620a.js.map"
+    "main.f8bbedaf.js.map": "/parker-portfolio-site/static/js/main.f8bbedaf.js.map"
   },
   "entrypoints": [
     "static/css/main.10e79ee0.css",
-    "static/js/main.f626620a.js"
+    "static/js/main.f8bbedaf.js"
   ]
 }
