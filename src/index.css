@@ -167,6 +167,14 @@ code {
   border-radius: 8px;
 }
 
+.project-image-caption{
+  text-align: center;
+  font-size: 15px;
+
+}
+
+
+
 @media screen and (max-width: 735px) {
   .pages {
     padding-left: 10px;
