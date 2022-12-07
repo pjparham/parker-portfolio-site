@@ -48,9 +48,6 @@ code {
   font-size: 28px;
 }
 
-.contact {
-
-}
 
 .contact-form {
   padding-top: 10px;
@@ -210,9 +207,17 @@ code {
 .project-image-caption{
   text-align: center;
   font-size: 15px;
-
 }
 
+.self-links {
+  list-style-type: none;
+  columns: 1;
+}
+
+.about-link {
+  text-decoration: none;
+  color: white;
+}
 
 
 
