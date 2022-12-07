@@ -18,36 +18,22 @@ export default function ContactMe() {
             [e.target.name]: e.target.value,
         })
     }
-    // const onSubmit = (e) => {
-    //     e.preventDefault();
-    //     send(
-    //       'SERVICE ID',
-    //       'TEMPLATE ID',
-    //       toSend,
-    //       'User ID'
-    //     )
-    //       .then((response) => {
-    //         console.log('SUCCESS!', response.status, response.text);
-    //       })
-    //       .catch((err) => {
-    //         console.log('FAILED...', err);
-    //       });
-    //   };
 
     function handleSubmit(){
         console.log(value)
-        send(
-            'service_i2rfgj9',
-            'template_dl5ta0b',
-            value,
-            'wimlVlaqMA5lWMJ3a'
-        )
-        .then((response) => {
-                    console.log('SUCCESS!', response.status, response.text);
-                  })
-                  .catch((err) => {
-                    console.log('FAILED...', err);
-                  });
+        // send(
+        //     'service_i2rfgj9',
+        //     'template_dl5ta0b',
+        //     value,
+        //     'wimlVlaqMA5lWMJ3a'
+        // )
+        // .then((response) => {
+        //             console.log('SUCCESS!', response.status, response.text);
+        //           })
+        //           .catch((err) => {
+        //             console.log('FAILED...', err);
+        //           });
+        alert("Thank you for reaching out! I will reach out to you soon.")
         setValue({
             name: "",
             email: "",

@@ -14,7 +14,7 @@ let allProjects = [
 
 export default function Projects() {
     const projects = allProjects.map((project) => {
-       return <Project project={project} key={project.name}/>
+       return <Project project={project} key={project.title}/>
     })
 
 
